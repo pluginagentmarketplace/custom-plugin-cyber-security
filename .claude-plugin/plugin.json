@@ -1,39 +1,80 @@
 {
   "schema_version": "1.0.0",
   "name": "cyber-security-assistant",
-  "version": "1.0.0",
-  "description": "Comprehensive Cyber Security development plugin with specialized agents and Golden Format skills",
+  "version": "2.0.0",
+  "description": "Production-Grade Cyber Security plugin with specialized agents, Golden Format skills, and comprehensive troubleshooting capabilities",
   "author": {
     "name": "Dr. Umit Kacar & Muhsin Elcicek",
     "email": "kacarumit.phd@gmail.com"
   },
   "repository": "https://github.com/pluginagentmarketplace/custom-plugin-cyber-security",
   "license": "SEE LICENSE IN LICENSE",
+  "sasmp_version": "1.3.0",
+  "production_grade": true,
+  "last_updated": "2025-01-01",
   "keywords": [
     "cyber-security",
     "security",
     "penetration-testing",
     "vulnerability",
-    "compliance"
+    "compliance",
+    "forensics",
+    "cryptography",
+    "incident-response",
+    "threat-hunting",
+    "soc"
   ],
   "agents": [
-    "./agents/05-cryptography-expert.md",
-    "./agents/03-forensics-analyst.md",
+    "./agents/01-offensive-security.md",
     "./agents/02-defensive-security.md",
+    "./agents/03-forensics-analyst.md",
     "./agents/04-compliance-specialist.md",
-    "./agents/01-offensive-security.md"
+    "./agents/05-cryptography-expert.md"
   ],
   "skills": [
+    "./skills/offensive/SKILL.md",
     "./skills/defensive/SKILL.md",
-    "./skills/cryptography/SKILL.md",
-    "./skills/compliance/SKILL.md",
     "./skills/forensics/SKILL.md",
-    "./skills/offensive/SKILL.md"
+    "./skills/compliance/SKILL.md",
+    "./skills/cryptography/SKILL.md"
   ],
   "commands": [
     "./commands/explore-cyber-security.md"
   ],
   "hooks": {
     "hooks_config_path": "./hooks/hooks.json"
+  },
+  "capabilities": {
+    "offensive": {
+      "agent": "offensive-security-expert",
+      "skill": "offensive-security",
+      "focus": ["penetration-testing", "vulnerability-assessment", "red-team"]
+    },
+    "defensive": {
+      "agent": "defensive-security-expert",
+      "skill": "defensive-security",
+      "focus": ["soc-operations", "incident-response", "threat-hunting"]
+    },
+    "forensics": {
+      "agent": "forensics-analyst",
+      "skill": "digital-forensics",
+      "focus": ["disk-forensics", "memory-forensics", "malware-analysis"]
+    },
+    "compliance": {
+      "agent": "compliance-specialist",
+      "skill": "security-compliance",
+      "focus": ["iso-27001", "soc-2", "gdpr", "hipaa", "pci-dss"]
+    },
+    "cryptography": {
+      "agent": "cryptography-expert",
+      "skill": "cryptography",
+      "focus": ["encryption", "pki", "key-management", "post-quantum"]
+    }
+  },
+  "quality_standards": {
+    "ethical": "No dark patterns, transparent behavior",
+    "honest": "Accurate capability claims",
+    "modern": "2024-2025 industry standards",
+    "maintainable": "Self-documenting code"
   }
 }
