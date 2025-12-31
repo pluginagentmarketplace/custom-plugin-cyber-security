@@ -14,7 +14,7 @@
 <!-- Badge Row 2: Content Badges -->
 [![Agents](https://img.shields.io/badge/Agents-5-orange?style=flat-square&logo=robot)](#-agents)
 [![Skills](https://img.shields.io/badge/Skills-5-purple?style=flat-square&logo=lightning)](#-skills)
-[![Commands](https://img.shields.io/badge/Commands-0-green?style=flat-square&logo=terminal)](#-commands)
+[![Commands](https://img.shields.io/badge/Commands-1-green?style=flat-square&logo=terminal)](#-commands)
 
 <br/>
 
@@ -110,7 +110,7 @@ cyber-security-assistant:01-offensive-security
 |---------|-------------|
 | 🤖 **5 Agents** | Specialized AI agents for cyber security tasks |
 | 🛠️ **5 Skills** | Reusable capabilities with Golden Format |
-| ⌨️ **0 Commands** | Quick slash commands |
+| ⌨️ **1 Commands** | Quick slash commands |
 | 🔄 **SASMP v1.3.0** | Full protocol compliance |
 
 ---
@@ -172,7 +172,7 @@ custom-plugin-cyber-security/
 │   └── marketplace.json
 ├── 📁 agents/              # 5 agents
 ├── 📁 skills/              # 5 skills (Golden Format)
-├── 📁 commands/            # 0 commands
+├── 📁 commands/            # 1 commands
 ├── 📁 hooks/
 ├── 📄 README.md
 ├── 📄 CHANGELOG.md
@@ -193,7 +193,7 @@ custom-plugin-cyber-security/
 | **SASMP** | v1.3.0 |
 | **Agents** | 5 |
 | **Skills** | 5 |
-| **Commands** | 0 |
+| **Commands** | 1 |
 
 ---
 
