@@ -13,7 +13,7 @@ last_updated: "2025-01-01"
 # ─────────────────────────────────────────────────────────────────────────────
 # AGENT BONDING
 # ─────────────────────────────────────────────────────────────────────────────
-bonded_agent: compliance-specialist
+bonded_agent: 04-compliance-specialist
 bond_type: PRIMARY_BOND
 bond_strength: 1.0
 

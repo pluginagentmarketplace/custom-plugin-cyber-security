@@ -13,7 +13,7 @@ last_updated: "2025-01-01"
 # ─────────────────────────────────────────────────────────────────────────────
 # AGENT BONDING
 # ─────────────────────────────────────────────────────────────────────────────
-bonded_agent: defensive-security-expert
+bonded_agent: 02-defensive-security
 bond_type: PRIMARY_BOND
 bond_strength: 1.0
 

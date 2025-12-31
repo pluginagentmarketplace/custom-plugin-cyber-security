@@ -13,7 +13,7 @@ last_updated: "2025-01-01"
 # ─────────────────────────────────────────────────────────────────────────────
 # AGENT BONDING
 # ─────────────────────────────────────────────────────────────────────────────
-bonded_agent: cryptography-expert
+bonded_agent: 05-cryptography-expert
 bond_type: PRIMARY_BOND
 bond_strength: 1.0
 

@@ -13,7 +13,7 @@ last_updated: "2025-01-01"
 # ─────────────────────────────────────────────────────────────────────────────
 # AGENT BONDING
 # ─────────────────────────────────────────────────────────────────────────────
-bonded_agent: forensics-analyst
+bonded_agent: 03-forensics-analyst
 bond_type: PRIMARY_BOND
 bond_strength: 1.0
 
