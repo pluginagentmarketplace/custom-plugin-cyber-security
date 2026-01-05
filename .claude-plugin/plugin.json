@@ -41,34 +41,54 @@
   "commands": [
     "./commands/explore-cyber-security.md"
   ],
-  "hooks": {
-    "hooks_config_path": "./hooks/hooks.json"
-  },
   "capabilities": {
     "offensive": {
       "agent": "offensive-security-expert",
       "skill": "offensive-security",
-      "focus": ["penetration-testing", "vulnerability-assessment", "red-team"]
+      "focus": [
+        "penetration-testing",
+        "vulnerability-assessment",
+        "red-team"
+      ]
     },
     "defensive": {
       "agent": "defensive-security-expert",
       "skill": "defensive-security",
-      "focus": ["soc-operations", "incident-response", "threat-hunting"]
+      "focus": [
+        "soc-operations",
+        "incident-response",
+        "threat-hunting"
+      ]
     },
     "forensics": {
       "agent": "forensics-analyst",
       "skill": "digital-forensics",
-      "focus": ["disk-forensics", "memory-forensics", "malware-analysis"]
+      "focus": [
+        "disk-forensics",
+        "memory-forensics",
+        "malware-analysis"
+      ]
     },
     "compliance": {
       "agent": "compliance-specialist",
       "skill": "security-compliance",
-      "focus": ["iso-27001", "soc-2", "gdpr", "hipaa", "pci-dss"]
+      "focus": [
+        "iso-27001",
+        "soc-2",
+        "gdpr",
+        "hipaa",
+        "pci-dss"
+      ]
     },
     "cryptography": {
       "agent": "cryptography-expert",
       "skill": "cryptography",
-      "focus": ["encryption", "pki", "key-management", "post-quantum"]
+      "focus": [
+        "encryption",
+        "pki",
+        "key-management",
+        "post-quantum"
+      ]
     }
   },
   "quality_standards": {

@@ -63,7 +63,7 @@
 
 ```bash
 # Step 1️⃣ Add the marketplace
-/plugin add marketplace pluginagentmarketplace/custom-plugin-cyber-security
+/plugin marketplace add pluginagentmarketplace/custom-plugin-cyber-security
 
 # Step 2️⃣ Install the plugin
 /plugin install cyber-security-assistant@pluginagentmarketplace-cyber-security
